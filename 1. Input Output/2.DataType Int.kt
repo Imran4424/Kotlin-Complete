@@ -18,6 +18,8 @@ fun main(args: Array<String>) {
     // this is much user friendly
     println("The integer values are $number, $anotherNumber")
 
-    
-
+    // the following lines will generate error
+    // cause we are trying to assign Int variable with double value
+//    number = 20.0
+//    anotherNumber = 20.0
 }
