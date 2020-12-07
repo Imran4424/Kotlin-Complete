@@ -4,6 +4,7 @@ fun main(args: Array<String>) {
     var digit = 7
 
     when (digit) {
+        // condition -> statement
         0 -> {
             println("Zero")
             println("First of Decimal Digit")
