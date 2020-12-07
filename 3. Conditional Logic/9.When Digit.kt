@@ -45,6 +45,7 @@ fun main(args: Array<String>) {
             println("Nine")
             println("Ten-th of Decimal Digit")
         }
+        // default condition -> default statement
         else -> {
             println("Not a digit")
             println("Not a decimal digit")
