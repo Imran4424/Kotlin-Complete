@@ -4,6 +4,7 @@ fun main(args: Array<String>) {
     var digit = 7
 
     when (digit) {
+        // condition -> statement
         0 -> println("Zero")
         1 -> println("One")
         2 -> println("Two")
@@ -14,6 +15,7 @@ fun main(args: Array<String>) {
         7 -> println("Seven")
         8 -> println("Eight")
         9 -> println("Nine")
+        // default condition -> default statement
         else -> println("Not a digit")
     }
 
