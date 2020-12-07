@@ -4,7 +4,9 @@ fun main(args: Array<String>) {
 
     // constant declaration
     // constant type will determined by the value provided in initialization
-    val lightSpeed = 3000000
+    // following underscores is for improve readability
+    // kotlin compiler will ignore it
+    val lightSpeed = 3_000_000
 
     println("The light speed is $lightSpeed")
 
