@@ -18,7 +18,7 @@ fun main(args: Array<String>) {
     // Like system.out.println()
     // kotlin has print
     print("My name is")
-    println("Imran")
+    print("Imran\n")
 
     println(3 + 7)
 
