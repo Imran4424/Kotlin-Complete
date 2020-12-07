@@ -13,5 +13,18 @@
 fun main(args: Array<String>) {
     // Like system.out.println()
     // kotlin has println
-    println("I am a Programmer")
+    println("I am a programmer")
+
+    // Like system.out.println()
+    // kotlin has print
+    print("My name is")
+    println("Imran")
+
+    println(3 + 7)
+
+    // string concatenation
+    println("My bill is " + 3 + 7)
+
+    // string interpolation
+    println("My bill is " + (3 + 7))
 }
