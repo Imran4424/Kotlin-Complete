@@ -1,4 +1,4 @@
-// 1.2.3 + 2.3.4 + 3.4.5 + ... + n(n+1)(n+2)
+// 1.2 + 2.3 + 3.4 + ... + n(n+1)
 
 
 fun main(args: Array<String>) {
@@ -8,7 +8,7 @@ fun main(args: Array<String>) {
     val number: Int = readLine()!!.toInt()
     var sum: Int = 0
 
-    for ( (i, j) in (0..number + 1).zip(0..number + 2)){
+    for ( (i, j) in (1..number).zip(2..number + 1)){
         println("values are: $i, $j")
 
         sum += (i * j)
