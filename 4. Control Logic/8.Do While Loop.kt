@@ -11,5 +11,5 @@ fun main(args: Array<String>) {
     do {
         println(i)
         i++
-    }while (i <= number)
+    } while (i <= number)
 }
