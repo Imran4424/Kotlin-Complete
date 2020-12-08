@@ -4,7 +4,7 @@ fun main(args: Array<String>) {
     // Continue statement
 
     for (i in 1..10) {
-        if (i == 7) {
+        if (i % 2 == 0) {
             continue
         }
 
