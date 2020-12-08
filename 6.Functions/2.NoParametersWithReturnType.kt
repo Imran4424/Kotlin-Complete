@@ -1,7 +1,7 @@
 
 /*
 * function
-* with parameters and return type
+* no parameters and with return type
 * */
 
 fun add(): Int {
