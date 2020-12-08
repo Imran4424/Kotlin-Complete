@@ -1,8 +1,5 @@
 
-/*
-* function
-* no parameters and no return type
-* */
+
 
 fun maxValue(x: Int, y: Int): Int {
     return if (x > y) {
