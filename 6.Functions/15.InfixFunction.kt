@@ -1,7 +1,6 @@
 
 /*
 * function
-* Named parameters
 *
 * extension function
 * infix function
