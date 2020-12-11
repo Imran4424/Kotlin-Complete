@@ -42,6 +42,7 @@ class Box(var length: Int, var width: Int, var height: Int) {
         println("Width $width")
         println("Height $height")
         println("Shape: $shape")
+        println();
     }
 
     // class method declaration
