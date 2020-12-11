@@ -14,13 +14,18 @@ fun main(args: Array<String>) {
     dog.eat("Bread")
 
     println()
-
     var cat = Cat()
 
     cat.color = "Grey"
     cat.age = 3
     cat.meow()
     cat.eat("Fish")
+
+    println()
+    var animal = Animal()
+    animal.color = "white"
+    println("animal color is ${animal.color}")
+    animal.eat("Food")
 }
 
 /*
