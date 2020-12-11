@@ -1,6 +1,5 @@
 
 
-
 /*
 * Inheritance
 * */
@@ -10,7 +9,14 @@ fun main(args: Array<String>) {
 
 }
 
-class Animal {
+/*
+* following error gone by making the Animal class open
+* This type is final, so it cannot be inherited from
+*
+* by default kotlin classes are public & final
+* to make a class inheritable, we need to use open
+* */
+open class Animal {
     var color: String = ""
 
     fun eat(food: String) {
@@ -20,7 +26,6 @@ class Animal {
 
 /*
 * error showing
-* This type is final, so it cannot be inherited from
 * This type has a constructor, and thus must be initialized here
 * */
 class Dog: Animal {
@@ -33,7 +38,6 @@ class Dog: Animal {
 
 /*
 * error showing
-* This type is final, so it cannot be inherited from
 * This type has a constructor, and thus must be initialized here
 * */
 class Cat: Animal {
